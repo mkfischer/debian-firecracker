@@ -1,7 +1,7 @@
-FROM debian:stretch
+FROM debian:buster
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV KERNEL_SOURCE_VERSION 4.9
+ENV KERNEL_SOURCE_VERSION 4.19
 
 WORKDIR /root
 
